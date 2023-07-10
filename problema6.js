@@ -10,16 +10,21 @@ let EDAD = prompt("ingrese la edad")
 let NOTA = prompt("ingrese nota")
 let SEXO = prompt("escriba su sexo 1-m o 2-f")
 
-EDAD =parseInt(EDAD)
-NOTA =parseInt(EDAD)
-SEXO =parseInt(EDAD)
+EDAD = parseInt(EDAD)
+NOTA = parseInt(NOTA)
+SEXO = parseInt(SEXO)
 
-
-if (EDAD > 18 && NOTA > 5 && SEXO = 1 ){
-    document.write("posible");
-}else if (EDAD > 18 && NOTA >5 &&  SEXO = 2){
+if(EDAD >= 18 && NOTA >= 5) {
+ document.write("mayo de edad y nota mayor a 5 nota =  " + NOTA + "</br>")
+    if (SEXO === 1 ){
+        document.write("posible aceptacio");
+    }else if( SEXO === 2){
     document.write("aceptada");
-}else{
-    document.write("no aceptada");
-}
+        }
 
+
+
+
+}else{
+    document.write("no cumple con los requisitos")
+}
