@@ -21,10 +21,6 @@ if(EDAD >= 18 && NOTA >= 5) {
     }else if( SEXO === 2){
     document.write("aceptada");
         }
-
-
-
-
 }else{
     document.write("no cumple con los requisitos")
 }
